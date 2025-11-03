@@ -1,0 +1,202 @@
+/* ===== Global Styles ===== */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f7f9fc;
+  color: #222;
+}
+
+/* ===== Navbar ===== */
+.navbar {
+  background-color: #fff;
+  border-bottom: 1px solid #e2e8f0;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-text {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.brand-icon {
+  background-color: #0078ff;
+  color: #fff;
+  padding: 0.4rem 0.7rem;
+  border-radius: 8px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.brand-name {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.nav-links a {
+  margin: 0 1rem;
+  color: #555;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #0078ff;
+}
+
+.login-box .btn {
+  margin-left: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #0078ff;
+  color: #0078ff;
+}
+
+.btn-outline:hover {
+  background-color: #0078ff;
+  color: white;
+}
+
+.btn-primary {
+  background-color: #0078ff;
+  border: none;
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: #005fcc;
+}
+
+/* ===== Main Job Details ===== */
+.main-content {
+  padding: 2rem;
+}
+
+.job-details-page {
+  max-width: 900px;
+  margin: 2rem auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.05);
+}
+
+.job-header {
+  text-align: center;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.job-title {
+  font-size: 2rem;
+  color: #0078ff;
+  margin-bottom: 0.3rem;
+}
+
+.job-company {
+  font-size: 1.1rem;
+  color: #555;
+  margin-bottom: 0.8rem;
+}
+
+.job-meta span {
+  margin: 0 0.5rem;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.apply-btn {
+  background-color: #0078ff;
+  color: white;
+  border: none;
+  padding: 0.8rem 2rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.apply-btn:hover {
+  background-color: #005fcc;
+}
+
+/* ===== Sections ===== */
+.job-description,
+.job-responsibilities,
+.job-skills,
+.job-footer {
+  margin-bottom: 1.5rem;
+}
+
+.job-description h2,
+.job-responsibilities h2,
+.job-skills h2,
+.job-footer h2 {
+  color: #0078ff;
+  margin-bottom: 0.8rem;
+}
+
+.job-responsibilities ul {
+  padding-left: 1.5rem;
+  list-style: disc;
+  line-height: 1.8;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.skills-list span {
+  background-color: #e7f3ff;
+  color: #0078ff;
+  padding: 0.4rem 0.8rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+/* ===== Footer ===== */
+.footer {
+  background-color: #f1f4f9;
+  padding: 1rem 2rem;
+  text-align: center;
+  border-top: 1px solid #e2e8f0;
+}
+
+.footer-content p {
+  color: #555;
+  margin: 0.5rem 0;
+}
+
+.footer-links a {
+  color: #0078ff;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  font-size: 0.9rem;
+}
+
+.footer-links a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,188 @@
+.carriers-page {
+  padding: 20px;
+  color: #111827;
+  background-color: #f9fafb;
+  min-height: 100vh;
+}
+
+/* Summary Cards */
+.carriers-summary {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.summary-card {
+  flex: 1;
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+.summary-card h4 {
+  color: #6b7280;
+  margin-bottom: 6px;
+}
+
+.summary-card p {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.summary-card span {
+  color: #10b981;
+  font-weight: 500;
+}
+
+/* Job Statistics */
+.job-statistics {
+  background: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 30px;
+  border: 1px solid #e5e7eb;
+}
+
+.job-statistics h3 {
+  margin-bottom: 10px;
+}
+
+/* Current Openings */
+.current-openings {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.openings-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.post-job-btn {
+  background-color: #7c3aed;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.jobs-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.job-card {
+  background: #f9fafb;
+  border-radius: 10px;
+  padding: 16px;
+  border: 1px solid #e5e7eb;
+}
+
+.job-card h4 {
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+  color: #111827;
+}
+
+.job-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 12px;
+}
+
+.job-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-details, .btn-apply {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.btn-details {
+  background: #e0e7ff;
+  color: #4338ca;
+}
+
+.btn-apply {
+  background: #10b981;
+  color: white;
+}
+
+/* Modal */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #fff;
+  border-radius: 12px;
+  padding: 24px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal h3 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.modal input {
+  padding: 8px;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.btn-save {
+  background: #7c3aed;
+  color: #fff;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-cancel {
+  background: #e5e7eb;
+  color: #111827;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
